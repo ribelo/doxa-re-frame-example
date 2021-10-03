@@ -1,0 +1,8 @@
+{:paths ["src/main" "resources"]
+ :deps  {re-frame/re-frame          {:mvn/version "1.2.0"}
+         reagent/reagent            {:mvn/version "1.0.0" :exclusions [cljsjs/react cljsjs/react-dom]}
+         ;; com.github.ribelo/doxa     {:mvn/version  "0.0.9"}
+         ribelo/doxa {:local/root "../doxa"}}
+ :aliases
+ {:cljs
+  {:extra-deps  {thheller/shadow-cljs {:mvn/version "2.14.5"}}}}}

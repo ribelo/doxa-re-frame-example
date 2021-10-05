@@ -6,6 +6,7 @@ cool.
 * how to run
 
 =$ yarn build=
+
 =$ yarn server=
 
 app is available on =localhost:3000=

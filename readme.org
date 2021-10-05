@@ -1,6 +1,6 @@
 #+TITLE:  doxa + re-frame
 
-a simple application to show how you can use `doxa` with `re-frame` and why it's
+a simple application to show how you can use =doxa= with =re-frame= and why it's
 cool.
 
 * how to run
